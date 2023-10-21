@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.fixed{
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color: aqua;
+    border: 50px solid aqua;
+}
+div.fixed1{
+    position: absolute;
+    bottom:0;
+    background-color: blue;
+    border: 50px solid blue;
+}
+div.fixed2{
+    position: absolute;
+    background-color: navy;
+    border: 50px solid navy;
+}
+div.fixed3{
+    position: absolute;
+    right:0;
+    background-color: teal;
+    border: 50px solid teal;
+}
+.relative{
+    position: absolute;
+    top:40%;
+    left: 40%;
+    background-color: gray;
+    border:50px solid gray;
+    width: 150px;
+    display: left;
+}
